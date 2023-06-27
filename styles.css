@@ -25,6 +25,10 @@ a{
 
 .random-info1{
     display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .topofpage{
@@ -43,7 +47,7 @@ a{
     background-color: grey;
     width: 325px;
     height: auto;
-    margin-right: 100px;
+    margin: 30px;
     flex-grow: 1;
 }
 
