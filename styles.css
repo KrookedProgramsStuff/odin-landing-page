@@ -41,6 +41,12 @@ a{
     display: flex;
     flex-direction: column;
     flex: 0 1 100%;
+    
+}
+
+.heading p{
+    text-align: left;
+    padding: 8px;
 }
 
 .img-con2{
@@ -49,6 +55,7 @@ a{
     height: auto;
     margin: 30px;
     flex-grow: 1;
+    border-radius: 15px;
 }
 
 .img-con1{
@@ -139,6 +146,11 @@ button{
     flex-shrink: 1;
     width: 125px;
     margin: 8px;
+}
+
+.button1{
+    border: 0 solid black;
+    font-weight: bold;
 }
 
 .button2{
