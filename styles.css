@@ -3,6 +3,10 @@
     
 } */
 
+body{
+    margin: 0 150px;
+    background-color: black;
+}
 
 nav{
     background-color: #1F2937;
@@ -23,6 +27,11 @@ a{
     font-size: 24px;
 }
 
+.random-info{
+    background-color:#E5E7EB;
+    margin-top: 0;
+}
+
 .random-info1{
     display: flex;
     gap: 8px;
@@ -35,6 +44,7 @@ a{
     display: flex;
     background-color: #1F2937;
     gap: 8px;
+    margin-bottom: 0;
 }
 
 .heading {
@@ -47,10 +57,10 @@ a{
 .heading p{
     text-align: left;
     padding: 8px;
+    margin: 0;
 }
 
 .img-con2{
-    background-color: grey;
     width: 325px;
     height: auto;
     margin: 30px;
@@ -78,6 +88,7 @@ a{
 p{
     color: E5E7EB;
     font-size: 18px;
+    margin: 0;
 }
 
 
@@ -117,8 +128,13 @@ footer{
     background-color: #3882F6;
 }
 
+.call-to-action h3{
+    margin: 0;
+}
+
 .quote{
     background-color: #E5E7EB;
+    margin: 0;
 }
 
 .quote-text, .author{
@@ -130,10 +146,12 @@ footer{
 
 .quote-text{
     text-align: center;
+    
 }
 
 .author{
     text-align: end;
+    margin: 0;
 }
 
 button{
